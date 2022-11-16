@@ -90,7 +90,7 @@ while True:
     if grid.count(0) == 0:
         break
 print('\n'+'='*50)
-print('계산이 완료되었습니다. 경과된 시간 :', time.time()-t, 's')
+print('elapsed time :', time.time()-t, 's')
 printGrid(grid, width, height)
-input('Enter를 눌러 종료합니다.')
+input('press Enter to close.')
 
